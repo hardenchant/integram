@@ -81,6 +81,8 @@ services:
       - GITLAB_BOT_TOKEN
       - GITLAB_OAUTH_ID
       - GITLAB_OAUTH_SECRET
+      - GITLAB_API_URL
+# example - GITLAB_API_URL=http://localhost/api/v3/
   bitbucket:
     image: integram/bitbucket
     restart: always
